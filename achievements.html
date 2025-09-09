@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Achievements – Spanish Quiz App</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    main{max-width:600px;margin:100px auto 0;text-align:center;}
+    h2{color:#ff6b6b}
+    #badge-collection{margin-top:25px;}
+    .empty{color:#666;margin-top:40px;}
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.svg" alt="Logo">
+    <h1>Spanish Quiz App</h1>
+    <a id="ach-link" href="index.html">🏠 Home</a>
+  </header>
+
+  <main>
+    <h2>Your Achievements</h2>
+    <div id="badge-collection"></div>
+    <p class="empty hidden">No badges yet. Play some quizzes! 😊</p>
+  </main>
+
+  <script>
+    const ACH_KEY = "sq_badges";
+    const ALL_BADGES = {
+      "verb_master"       : "🥇 Verb Master",
+      "fast_thinker"      : "⚡ Fast Thinker",
+      "persistent_learner": "🔁 Persistent Learner"
+    };
+
+    const stored = JSON.parse(localStorage.getItem(ACH_KEY) || "[]");
+    const container = document.getElementById('badge-collection');
+
+    if(stored.length){
+      stored.forEach(id=>{
+        const div = document.createElement('div');
+        div.className="badge";
+        div.textContent = ALL_BADGES[id] || id;
+        container.appendChild(div);
+      });
+    }else{
+      document.querySelector('.empty').classList.remove('hidden');
+    }
+  </script>
+</body>
+</html>

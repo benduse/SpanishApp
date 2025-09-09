@@ -1,0 +1,180 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff7e6; /* light pastel yellow (cheerful background) */
+  color: #333; /* dark gray text for readability */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+/* Header */
+header {
+  background: #ffecd1; /* light pastel peach background */
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* centers logo + title */
+  border-bottom: 2px solid #ffd28c; /* subtle divider */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* soft shadow */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100; /* keep it above */
+}
+
+/* Adjust container for spacing below fixed header */
+.container {
+  margin-top: 80px; /* enough space for header height */
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+}
+/* Logo inside header */
+header img {
+  height: 40px;
+  margin-right: 10px;
+  align-items:left;
+}
+
+/* Title text in header */
+header h1 {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  font-size: 22px;
+  margin: 0;
+  background: linear-gradient(90deg, #ff6b6b, #4ea8de);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; /* gradient text effect */
+}
+
+
+
+h1 {
+  color: #ff6b6b; /* coral accent */
+  margin-bottom: 20px;
+}
+
+.card {
+  background: #ffffff; /* white card */
+  border-radius: 10px;
+  padding: 25px;
+  margin-top: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+button {
+  background: #4ea8de; /* cheerful sky blue */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #3d95c6; /* slightly darker blue on hover */
+}
+
+.hidden {
+  display: none;
+}
+
+/* Progress Bar */
+#progress-container {
+  width: 100%;
+  background: #e0e0e0;
+  border-radius: 8px;
+  margin: 10px 0 20px;
+  height: 15px;
+  overflow: hidden;
+}
+
+#progress-bar {
+  height: 100%;
+  width: 0%;
+  background: #80cfa9; /* vibrant happy green */
+  transition: width 0.3s ease;
+}
+
+/* Options */
+#options {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+#options button {
+  background: #ffe0ac; /* light pastel orange */
+  color: #333;
+  margin: 5px 0;
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  transition: 0.3s;
+}
+
+#options button:hover {
+  background: #ffd28c;
+}
+
+/* Example Sentences */
+#example {
+  margin-top: 15px;
+  padding: 10px;
+  background: #f9f9f9;
+  border-left: 4px solid #4ea8de;
+  border-radius: 4px;
+  font-size: 14px;
+  text-align: left;
+}
+
+/* Correct / Wrong answer highlights */
+.correct {
+  background: #a8e6cf !important; /* pastel green */
+  color: #333 !important;
+}
+
+.wrong {
+  background: #ffaaa5 !important; /* pastel warm red */
+  color: #333 !important;
+}
+
+#achievements {
+  margin-top: 20px;
+  padding: 10px;
+  background: #f5f5f5;
+  border-radius: 8px;
+  text-align: left;
+}
+
+#achievements h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.badge {
+  display: inline-block;
+  margin: 5px;
+  padding: 8px 12px;
+  background: #ffe0ac; /* soft golden background */
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+header a#ach-link{
+  margin-left:auto;
+  color:#4ea8de;
+  font-weight:bold;
+  text-decoration:none;
+}
+header a#ach-link:hover{ text-decoration:underline; }
+.badge{white-space:nowrap;}
+#badge-collection{display:flex;flex-wrap:wrap;justify-content:center;}
