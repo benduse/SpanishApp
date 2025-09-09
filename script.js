@@ -1,18 +1,13 @@
-/***********************
- *  Spanish Quiz App
- *  – logic (script.js)
- ***********************/
-
 /* ============== constants ============== */
 const MAX_QUESTIONS = 15;         // fixed number per session
-const BADGE_STORE   = "sq_badges";/* localStorage key for earned badges */
+const BADGE_STORE = "sq_badges";/* localStorage key for earned badges */
 
 /* ============== state ============== */
-let quizWords            = [];
+let quizWords = [];
 let currentQuestionIndex = 0;
-let score                = 0;
+let score = 0;
 let startTime;                     // per-question timer start
-let times   = [];                  // array of time per question
+let times = [];                  // array of time per question
 let currentTheme = "";             // noun / verb / noun phrase …
 /* attempts per theme are tracked in localStorage → "attempts_<theme>" */
 
@@ -49,7 +44,7 @@ function startQuiz(theme) {
 function showQuestion() {
   const q = quizWords[currentQuestionIndex];
   document.getElementById("question").innerText =
-      `What does "${q.word}" mean?`;
+    `What does "${q.word}" mean?`;
 
   // hide previous example
   document.getElementById("example").classList.add("hidden");
@@ -67,7 +62,7 @@ function showQuestion() {
   options.forEach(opt => {
     const btn = document.createElement("button");
     btn.innerText = opt;
-    btn.onclick   = () => checkAnswer(opt, q);
+    btn.onclick = () => checkAnswer(opt, q);
     optionsDiv.appendChild(btn);
   });
 
@@ -122,7 +117,7 @@ function endQuiz() {
   document.getElementById("quiz").classList.add("hidden");
   document.getElementById("results").classList.remove("hidden");
   document.getElementById("final-score").innerText =
-        `${score} / ${quizWords.length}`;
+    `${score} / ${quizWords.length}`;
   document.getElementById("progress-bar").style.width = "100%";
 
   // evaluate & display badges
@@ -132,10 +127,10 @@ function endQuiz() {
 
 /* ============== ACHIEVEMENTS ============== */
 function makeBadge(id, label) {
-  const div  = document.createElement("div");
+  const div = document.createElement("div");
   div.className = "badge";
   div.dataset.id = id;   // handy for storage
-  div.innerText  = label;
+  div.innerText = label;
   return div;
 }
 
@@ -156,7 +151,7 @@ function checkAchievements() {
 
   /* PERSISTENT LEARNER – 100 % after at least one previous attempt */
   const keyAttempts = "attempts_" + currentTheme;
-  const attempts    = +(localStorage.getItem(keyAttempts) || 0) + 1;
+  const attempts = +(localStorage.getItem(keyAttempts) || 0) + 1;
   localStorage.setItem(keyAttempts, attempts);
 
   if (score === quizWords.length && attempts > 1) {
@@ -168,8 +163,8 @@ function checkAchievements() {
 
 function updateStoredBadges() {
   const current = Array.from(
-      document.querySelectorAll("#badges .badge"),
-      b => b.dataset.id
+    document.querySelectorAll("#badges .badge"),
+    b => b.dataset.id
   );
   const stored = JSON.parse(localStorage.getItem(BADGE_STORE) || "[]");
   const merged = Array.from(new Set([...stored, ...current]));
