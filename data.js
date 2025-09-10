@@ -2158,5 +2158,677 @@ const words = [
     "meaning": "acquisition",
     "example_es": "La adquisición fue muy costosa.",
     "example_en": "The acquisition was very expensive."
-  }
+  },
+    {
+      "word": "fiera",
+      "phonetics": "ˈfjeɾa",
+      "part_of_speech": "noun/adjective",
+      "meaning": "beast, wild animal; also fierce person",
+      "example_es": "La fiera escapó de su jaula.",
+      "example_en": "The beast escaped from its cage."
+    },
+    {
+      "word": "fiereza",
+      "phonetics": "fjeˈɾeθa",
+      "part_of_speech": "noun",
+      "meaning": "ferocity, fierceness",
+      "example_es": "Atacó con gran fiereza.",
+      "example_en": "He attacked with great ferocity."
+    },
+    {
+      "word": "fieros",
+      "phonetics": "ˈfjeɾos",
+      "part_of_speech": "adjective (plural)",
+      "meaning": "fierce, feral",
+      "example_es": "Los leones son animales fieros.",
+      "example_en": "Lions are fierce animals."
+    },
+    {
+      "word": "fiero",
+      "phonetics": "ˈfjeɾo",
+      "part_of_speech": "adjective",
+      "meaning": "fierce, savage",
+      "example_es": "El perro parecía muy fiero.",
+      "example_en": "The dog looked very fierce."
+    },
+    {
+      "word": "fierran",
+      "phonetics": "ˈfjɛran",
+      "part_of_speech": "verb (present plural of 'fierrar')",
+      "meaning": "they bind with iron",
+      "example_es": "Fierran los portones para mayor seguridad.",
+      "example_en": "They reinforce the gates with iron for more security."
+    },
+    {
+      "word": "fierre",
+      "phonetics": "ˈfjɛre",
+      "part_of_speech": "verb (subjunctive of 'fierrar')",
+      "meaning": "that I/he/she reinforce with iron",
+      "example_es": "Espero que fierre bien la puerta.",
+      "example_en": "I hope he reinforces the door properly."
+    },
+    {
+      "word": "fierren",
+      "phonetics": "ˈfjɛren",
+      "part_of_speech": "verb (subjunctive/imperative plural of 'fierrar')",
+      "meaning": "that you all reinforce with iron",
+      "example_es": "Que fierren todas las estructuras.",
+      "example_en": "You should reinforce all the structures."
+    },
+    {
+      "word": "fierro",
+      "phonetics": "ˈfjeɾo",
+      "part_of_speech": "noun",
+      "meaning": "iron (colloquial in Latin America), metal object",
+      "example_es": "El candado está hecho de fierro.",
+      "example_en": "The lock is made of iron."
+    },
+    {
+      "word": "fiesta",
+      "phonetics": "ˈfjesta",
+      "part_of_speech": "noun",
+      "meaning": "party, celebration",
+      "example_es": "Hay una fiesta en casa de mis amigos esta noche.",
+      "example_en": "There is a party at my friends' house tonight."
+    },
+    {
+      "word": "fiestero",
+      "phonetics": "fjɛsˈteɾo",
+      "part_of_speech": "adjective/noun",
+      "meaning": "party-loving; someone who enjoys parties",
+      "example_es": "Es muy fiestero y sale todos los fines de semana.",
+      "example_en": "He is very party-loving and goes out every weekend."
+    },
+    {
+      "word": "fifiriche",
+      "phonetics": "fifiˈɾitʃe",
+      "part_of_speech": "noun (colloquial)",
+      "meaning": "pretentious person, show-off (Latin American slang)",
+      "example_es": "Ese señor es un fifiriche, siempre ostentando.",
+      "example_en": "That man is a show-off, always flaunting his wealth."
+    },
+    {
+      "word": "figle",
+      "phonetics": "ˈfiɣle",
+      "part_of_speech": "noun",
+      "meaning": "ophicleide (musical instrument of the brass family)",
+      "example_es": "El figle se utilizaba en bandas del siglo XIX.",
+      "example_en": "The ophicleide was used in 19th-century bands."
+    },
+    {
+      "word": "figonero",
+      "phonetics": "fiɣoˈneɾo",
+      "part_of_speech": "noun",
+      "meaning": "innkeeper or tavern owner",
+      "example_es": "El figonero servía comida a los viajeros.",
+      "example_en": "The innkeeper served food to the travelers."
+    },
+    {
+      "word": "figón",
+      "phonetics": "fiˈɣon",
+      "part_of_speech": "noun",
+      "meaning": "cheap tavern, inn",
+      "example_es": "Nos encontramos en un antiguo figón.",
+      "example_en": "We met in an old tavern."
+    },
+    {
+      "word": "figo",
+      "phonetics": "ˈfiɣo",
+      "part_of_speech": "noun",
+      "meaning": "fig (archaic or poetic)",
+      "example_es": "El figo maduro colgaba del árbol.",
+      "example_en": "The ripe fig hung from the tree."
+    },
+    {
+      "word": "figulino",
+      "phonetics": "fiɣuˈlino",
+      "part_of_speech": "noun",
+      "meaning": "potter, ceramic maker (archaic)",
+      "example_es": "El figulino fabricaba vasijas de barro.",
+      "example_en": "The potter made clay vessels."
+    },
+    {
+      "word": "figurable",
+      "phonetics": "fiɣuˈɾaβle",
+      "part_of_speech": "adjective",
+      "meaning": "imaginable, conceivable",
+      "example_es": "Es un error apenas figurable.",
+      "example_en": "It’s a barely imaginable mistake."
+    },
+    {
+      "word": "figuración",
+      "phonetics": "fiɣuɾaˈθjon",
+      "part_of_speech": "noun",
+      "meaning": "imagination; ornamental depiction",
+      "example_es": "Todo era producto de su figuración.",
+      "example_en": "It was all a product of his imagination."
+    },
+    {
+      "word": "figuradamente",
+      "phonetics": "fiɣuɾaðaˈmente",
+      "part_of_speech": "adverb",
+      "meaning": "figuratively",
+      "example_es": "Esto debe entenderse figuradamente.",
+      "example_en": "This should be understood figuratively."
+    },
+    {
+      "word": "figurad",
+      "phonetics": "fiɣuˈɾað",
+      "part_of_speech": "verb (imperative plural of 'figurar')",
+      "meaning": "imagine, picture yourselves",
+      "example_es": "Figurad lo difícil que fue.",
+      "example_en": "Imagine how hard it was."
+    },
+    {
+      "word": "figura",
+      "phonetics": "fiˈɣuɾa",
+      "part_of_speech": "noun/verb",
+      "meaning": "figure, form, to appear (verb)",
+      "example_es": "La figura del héroe se alzaba en la pintura.",
+      "example_en": "The figure of the hero rose in the painting."
+    },
+    {
+      "word": "figurándome",
+      "phonetics": "fiɣuˈɾando.me",
+      "part_of_speech": "verb (gerund reflexive, 'figurar')",
+      "meaning": "imagining myself",
+      "example_es": "Estoy figurándome cómo sería la vida allí.",
+      "example_en": "I am imagining how life would be there."
+    },
+    {
+      "word": "figurándonos",
+      "phonetics": "fiɣuˈɾando.nos",
+      "part_of_speech": "verb (gerund reflexive, 'figurar')",
+      "meaning": "imagining ourselves",
+      "example_es": "Estamos figurándonos lo que pasó.",
+      "example_en": "We are imagining what happened."
+    },
+    {
+      "word": "figurándoos",
+      "phonetics": "fiɣuˈɾando.os",
+      "part_of_speech": "verb (gerund reflexive, tú plural form)",
+      "meaning": "you all imagining yourselves",
+      "example_es": "¿Os estáis figurándoos una solución?",
+      "example_en": "Are you all imagining a solution?"
+    },
+    {
+      "word": "figurándote",
+      "phonetics": "fiɣuˈɾando.te",
+      "part_of_speech": "verb (gerund reflexive, 'figurar')",
+      "meaning": "imagining yourself",
+      "example_es": "Te estás figurándote un futuro mejor.",
+      "example_en": "You are imagining a better future."
+    },
+    {
+      "word": "figurante",
+      "phonetics": "fiɣuˈɾante",
+      "part_of_speech": "noun",
+      "meaning": "extra, background actor",
+      "example_es": "Ella trabajó como figurante en una película.",
+      "example_en": "She worked as an extra in a movie."
+    },
+    {
+      "word": "figuran",
+      "phonetics": "fiˈɣuɾan",
+      "part_of_speech": "verb (third person plural)",
+      "meaning": "they appear, they figure",
+      "example_es": "Sus nombres figuran en la lista.",
+      "example_en": "Their names appear on the list."
+    },
+    {
+      "word": "figuraos",
+      "phonetics": "fiˈɣuaɾaos",
+      "part_of_speech": "verb (imperative reflexive, vosotros)",
+      "meaning": "imagine (you all)",
+      "example_es": "Figuraos lo difícil que fue para mí.",
+      "example_en": "Imagine how hard it was for me."
+    },
+    {
+      "word": "figurá",
+      "phonetics": "fiɣuˈɾa",
+      "part_of_speech": "verb (imperative singular, voseo)",
+      "meaning": "imagine, figure (command)",
+      "example_es": "¡Figurá lo que podríamos lograr!",
+      "example_en": "Imagine what we could achieve!"
+    },
+    {
+      "word": "figurar",
+      "phonetics": "fiɣuˈɾaɾ",
+      "part_of_speech": "verb",
+      "meaning": "to appear, to represent, to imagine",
+      "example_es": "Su nombre figura en el contrato.",
+      "example_en": "His name appears in the contract."
+    },
+    {
+      "word": "figurarme",
+      "phonetics": "fiɣuˈɾaɾ.me",
+      "part_of_speech": "verb (reflexive)",
+      "meaning": "to imagine (myself)",
+      "example_es": "Puedo figurarme cómo sucedió.",
+      "example_en": "I can imagine how it happened."
+    },
+    {
+      "word": "figurarnos",
+      "phonetics": "fiɣuˈɾaɾ.nos",
+      "part_of_speech": "verb (reflexive)",
+      "meaning": "to imagine (ourselves)",
+      "example_es": "Podemos figurarnos las consecuencias.",
+      "example_en": "We can imagine the consequences."
+    },
+    {
+      "word": "figuraros",
+      "phonetics": "fiɣuˈɾaɾ.os",
+      "part_of_speech": "verb (reflexive, vosotros)",
+      "meaning": "to imagine (yourselves)",
+      "example_es": "Podéis figuraros cómo fue aquello.",
+      "example_en": "You can imagine how that was."
+    },
+    {
+      "word": "figurarte",
+      "phonetics": "fiɣuˈɾaɾ.te",
+      "part_of_speech": "verb (reflexive, tú)",
+      "meaning": "to imagine (yourself)",
+      "example_es": "Puedes figurarte el problema.",
+      "example_en": "You can imagine the problem."
+    },
+    {
+      "word": "figurás",
+      "phonetics": "fiɣuˈɾas",
+      "part_of_speech": "verb (present, voseo)",
+      "meaning": "you figure, you appear",
+      "example_es": "Vos figurás siempre en las fotos.",
+      "example_en": "You always appear in the photos."
+    },
+    {
+      "word": "figurate",
+      "phonetics": "fiɣuˈɾate",
+      "part_of_speech": "verb (imperative, tú)",
+      "meaning": "imagine (you)",
+      "example_es": "¡Figurate lo que sería ganar la lotería!",
+      "example_en": "Imagine what it would be like to win the lottery!"
+    },
+    {
+      "word": "figúrate",
+      "phonetics": "fiˈɣuɾate",
+      "part_of_speech": "interjection/verb (imperative)",
+      "meaning": "just imagine! (emphatic)",
+      "example_es": "¡Figúrate, dejaron la puerta abierta!",
+      "example_en": "Just imagine, they left the door open!"
+    },
+    {
+      "word": "figurativamente",
+      "phonetics": "fiɣuɾatiˈβamente",
+      "part_of_speech": "adverb",
+      "meaning": "figuratively, metaphorically",
+      "example_es": "La expresión debe entenderse figurativamente.",
+      "example_en": "The expression should be understood figuratively."
+    },
+    {
+      "word": "figurativo",
+      "phonetics": "fiɣuɾaˈtiβo",
+      "part_of_speech": "adjective",
+      "meaning": "figurative",
+      "example_es": "Es un lenguaje figurativo.",
+      "example_en": "It is figurative language."
+    },
+    {
+      "word": "figurear",
+      "phonetics": "fiɣueˈɾaɾ",
+      "part_of_speech": "verb (colloquial, Latin America)",
+      "meaning": "to show off, to boast",
+      "example_es": "Le gusta figurear en todas las reuniones.",
+      "example_en": "He likes to show off at all the meetings."
+    },
+    {
+      "word": "figuree",
+      "phonetics": "fiɣueˈɾe",
+      "part_of_speech": "verb (subjunctive of 'figurear')",
+      "meaning": "that I/he/she show off",
+      "example_es": "No quiero que figuree demasiado.",
+      "example_en": "I don’t want him to show off too much."
+    },
+    {
+      "word": "figure",
+      "phonetics": "fiˈɣuɾe",
+      "part_of_speech": "verb (subjunctive/present)",
+      "meaning": "that I/he/she appear, figure",
+      "example_es": "Es probable que figure en la lista.",
+      "example_en": "It’s likely that he appears on the list."
+    },
+    {
+      "word": "figurémonos",
+      "phonetics": "fiɣuˈɾe.monos",
+      "part_of_speech": "verb (imperative, nosotros reflexive)",
+      "meaning": "let’s imagine",
+      "example_es": "Figurémonos lo que ocurriría sin reglas.",
+      "example_en": "Let’s imagine what would happen without rules."
+    },
+    {
+      "word": "figúrense",
+      "phonetics": "fiˈɣuɾense",
+      "part_of_speech": "verb (imperative, ustedes reflexive)",
+      "meaning": "imagine (you all)",
+      "example_es": "¡Figúrense la sorpresa que nos llevamos!",
+      "example_en": "Imagine the surprise we had!"
+    },
+    {
+      "word": "figuren",
+      "phonetics": "fiˈɣuɾen",
+      "part_of_speech": "verb (present/plural)",
+      "meaning": "that they appear",
+      "example_es": "Es importante que figuren todos los gastos.",
+      "example_en": "It is important that all expenses appear."
+    },
+    {
+      "word": "figuré",
+      "phonetics": "fiɣuˈɾe",
+      "part_of_speech": "verb (preterite, first-person singular)",
+      "meaning": "I appeared / I figured",
+      "example_es": "Figuré en el torneo como suplente.",
+      "example_en": "I appeared in the tournament as a substitute."
+    },
+    {
+      "word": "figurero",
+      "phonetics": "fiɣuˈɾeɾo",
+      "part_of_speech": "noun",
+      "meaning": "pretentious or showy person",
+      "example_es": "Ese hombre es un figurero.",
+      "example_en": "That man is a show-off."
+    },
+    {
+      "word": "fidedigno",
+      "phonetics": "fiðeˈdiɣno",
+      "part_of_speech": "adjective",
+      "meaning": "trustworthy, reliable, credible",
+      "example_es": "El periódico siempre ofrece información fidedigna.",
+      "example_en": "The newspaper always provides trustworthy information."
+    },
+    {
+      "word": "fideicomisario",
+      "phonetics": "fiðejkomiˈsaɾjo",
+      "part_of_speech": "noun",
+      "meaning": "trustee; a person appointed to manage a trust",
+      "example_es": "El fideicomisario protegía los intereses de los herederos.",
+      "example_en": "The trustee safeguarded the interests of the heirs."
+    },
+    {
+      "word": "fideicomiso",
+      "phonetics": "fiðejkoˈmiso",
+      "part_of_speech": "noun",
+      "meaning": "trust; a legal arrangement for managing assets",
+      "example_es": "Crearon un fideicomiso para administrar los bienes familiares.",
+      "example_en": "They created a trust to manage the family assets."
+    },
+    {
+      "word": "fidelidad",
+      "phonetics": "fiðeliˈðað",
+      "part_of_speech": "noun",
+      "meaning": "fidelity, loyalty, faithfulness",
+      "example_es": "La fidelidad del perro con su dueño era impresionante.",
+      "example_en": "The dog's loyalty to its owner was impressive."
+    },
+    {
+      "word": "fideo",
+      "phonetics": "fiˈðeo",
+      "part_of_speech": "noun",
+      "meaning": "noodle",
+      "example_es": "La sopa de fideos es muy popular en invierno.",
+      "example_en": "Noodle soup is very popular in winter."
+    },
+    {
+      "word": "fido",
+      "phonetics": "ˈfido",
+      "part_of_speech": "proper noun",
+      "meaning": "Fido, a common dog’s name",
+      "example_es": "Fido corre rápidamente por el parque.",
+      "example_en": "Fido runs quickly through the park."
+    },
+    {
+      "word": "fiduciario",
+      "phonetics": "fiðusjˈaɾjo",
+      "part_of_speech": "adjective",
+      "meaning": "fiduciary; related to holding a trust",
+      "example_es": "Él tiene una responsabilidad fiduciaria con sus clientes.",
+      "example_en": "He has a fiduciary responsibility to his clients."
+    },
+    {
+      "word": "fiebre",
+      "phonetics": "ˈfjebɾe",
+      "part_of_speech": "noun",
+      "meaning": "fever, high body temperature",
+      "example_es": "El niño tiene fiebre y no puede ir a la escuela.",
+      "example_en": "The child has a fever and cannot go to school."
+    },
+    {
+      "word": "fié",
+      "phonetics": "ˈfje",
+      "part_of_speech": "verb (past, first person singular of 'fiar')",
+      "meaning": "I trusted",
+      "example_es": "Yo le fié dinero porque era mi amigo.",
+      "example_en": "I trusted him with money because he was my friend."
+    },
+    {
+      "word": "fíe",
+      "phonetics": "ˈfje",
+      "part_of_speech": "verb (subjunctive, first/third singular of 'fiar')",
+      "meaning": "that I/he/she trust(s)",
+      "example_es": "Espero que se fíe de mí.",
+      "example_en": "I hope he trusts me."
+    },
+    {
+      "word": "fíele",
+      "phonetics": "ˈfjele",
+      "part_of_speech": "verb (imperative, third person command of 'fiar')",
+      "meaning": "trust him/her",
+      "example_es": "Usted fíele y no tendrá problemas.",
+      "example_en": "You trust him and you won’t have problems."
+    },
+    {
+      "word": "fieles",
+      "phonetics": "ˈfjeles",
+      "part_of_speech": "noun (plural), adjective",
+      "meaning": "faithful followers; loyal ones",
+      "example_es": "Los fieles asistieron a la misa del domingo.",
+      "example_en": "The faithful attended Sunday mass."
+    },
+    {
+      "word": "fiel",
+      "phonetics": "ˈfjel",
+      "part_of_speech": "adjective",
+      "meaning": "faithful, loyal, accurate",
+      "example_es": "Siempre fue fiel a sus principios.",
+      "example_en": "He was always faithful to his principles."
+    },
+    {
+      "word": "fielmente",
+      "phonetics": "fjelˈmente",
+      "part_of_speech": "adverb",
+      "meaning": "faithfully, loyally, accurately",
+      "example_es": "Ella cumplió fielmente con sus promesas.",
+      "example_en": "She faithfully kept her promises."
+    },
+    {
+      "word": "fieltrar",
+      "phonetics": "fjelˈtɾaɾ",
+      "part_of_speech": "verb",
+      "meaning": "to felt (compress wool to make felt fabric)",
+      "example_es": "El artesano sabe fieltrar la lana.",
+      "example_en": "The craftsman knows how to felt the wool."
+    },
+    {
+      "word": "fieltre",
+      "phonetics": "ˈfjeltɾe",
+      "part_of_speech": "verb (subjunctive of 'fieltrar')",
+      "meaning": "that I/he/she felt",
+      "example_es": "Espero que fieltre la lana con cuidado.",
+      "example_en": "I hope he felts the wool carefully."
+    },
+    {
+      "word": "fieltro",
+      "phonetics": "ˈfjeltɾo",
+      "part_of_speech": "noun",
+      "meaning": "felt (fabric made from wool)",
+      "example_es": "El sombrero está hecho de fieltro.",
+      "example_en": "The hat is made of felt."
+    },
+    {
+      "word": "fíen",
+      "phonetics": "ˈfjen",
+      "part_of_speech": "verb (subjunctive/imperative plural of 'fiar')",
+      "meaning": "that you all trust",
+      "example_es": "Espero que se fíen de mí pronto.",
+      "example_en": "I hope you all trust me soon."
+    },
+    {
+      "word": "fíenle",
+      "phonetics": "ˈfjenle",
+      "part_of_speech": "verb (imperative plural with pronoun)",
+      "meaning": "you all trust him/her",
+      "example_es": "Fíenle, es una persona confiable.",
+      "example_en": "Trust him, he is a reliable person."
+    },
+    {
+      "word": "fieramente",
+      "phonetics": "fjeɾaˈmente",
+      "part_of_speech": "adverb",
+      "meaning": "fiercely, bravely",
+      "example_es": "Defendió su idea fieramente contra las críticas.",
+      "example_en": "He fiercely defended his idea against criticism."
+    },
+    {
+      "word": "figurilla",
+      "phonetics": "fiɣuˈɾiʝa",
+      "part_of_speech": "noun",
+      "meaning": "small figure, figurine",
+      "example_es": "Compró una figurilla de cerámica en el mercado.",
+      "example_en": "She bought a ceramic figurine at the market."
+    },
+    {
+      "word": "figuro",
+      "phonetics": "fiˈɣuɾo",
+      "part_of_speech": "verb (present, first-person singular of 'figurar')",
+      "meaning": "I appear, I figure",
+      "example_es": "No figuro en la lista de invitados.",
+      "example_en": "I don’t appear on the guest list."
+    },
+    {
+      "word": "figurón",
+      "phonetics": "fiɣuˈɾon",
+      "part_of_speech": "noun (colloquial)",
+      "meaning": "show-off, pretentious person",
+      "example_es": "Es un figurón, siempre hablando de sus logros.",
+      "example_en": "He is a show-off, always talking about his achievements."
+    },
+    {
+      "word": "figuró",
+      "phonetics": "fiɣuˈɾo",
+      "part_of_speech": "verb (preterite, third-person singular of 'figurar')",
+      "meaning": "he/she appeared, figured",
+      "example_es": "Su nombre figuró en la lista de ganadores.",
+      "example_en": "His name appeared on the winners’ list."
+    },
+    {
+      "word": "fijación",
+      "phonetics": "fixaˈθjon",
+      "part_of_speech": "noun",
+      "meaning": "fixation, attachment",
+      "example_es": "Tiene una fijación con el orden.",
+      "example_en": "He has a fixation with order."
+    },
+    {
+      "word": "fijad",
+      "phonetics": "fiˈxad",
+      "part_of_speech": "verb (imperative vosotros of 'fijar')",
+      "meaning": "fix, attach (plural imperative)",
+      "example_es": "Fijad bien los cuadros a la pared.",
+      "example_en": "Fix the pictures securely to the wall."
+    },
+    {
+      "word": "fijador",
+      "phonetics": "fixaˈðoɾ",
+      "part_of_speech": "noun",
+      "meaning": "fixative (for hair, perfume, etc.)",
+      "example_es": "Compró un fijador fuerte para su peinado.",
+      "example_en": "He bought a strong hair fixative."
+    },
+    {
+      "word": "fija",
+      "phonetics": "ˈfixa",
+      "part_of_speech": "adjective/verb",
+      "meaning": "fixed (adj.); she fixes (verb)",
+      "example_es": "Ella fija la lámpara en el techo.",
+      "example_en": "She fixes the lamp to the ceiling."
+    },
+    {
+      "word": "fijá",
+      "phonetics": "fiˈxa",
+      "part_of_speech": "verb (imperative, voseo of 'fijar')",
+      "meaning": "fix, attach (informal command)",
+      "example_es": "Fijá bien el tornillo.",
+      "example_en": "Fix the screw properly."
+    },
+    {
+      "word": "fijamente",
+      "phonetics": "fixaˈmente",
+      "part_of_speech": "adverb",
+      "meaning": "fixedly, intently",
+      "example_es": "Me miraba fijamente a los ojos.",
+      "example_en": "He stared fixedly into my eyes."
+    },
+    {
+      "word": "fijándole",
+      "phonetics": "fixanˈdole",
+      "part_of_speech": "verb (gerund with pronoun, 'fijar')",
+      "meaning": "fixing him/her/it",
+      "example_es": "Estaban fijándole la correa al perro.",
+      "example_en": "They were fixing the leash on the dog."
+    },
+    {
+      "word": "fijándolo",
+      "phonetics": "fixanˈdolo",
+      "part_of_speech": "verb (gerund with pronoun, 'fijar')",
+      "meaning": "fixing it",
+      "example_es": "Lo estaban fijándolo a la pared.",
+      "example_en": "They were fixing it to the wall."
+    },
+    {
+      "word": "fijándome",
+      "phonetics": "fixanˈdome",
+      "part_of_speech": "verb (gerund reflexive, 'fijar')",
+      "meaning": "noticing, paying attention",
+      "example_es": "Estoy fijándome en los detalles.",
+      "example_en": "I am paying attention to the details."
+    },
+    {
+      "word": "fijándonos",
+      "phonetics": "fixanˈdonos",
+      "part_of_speech": "verb (gerund reflexive, 'fijar')",
+      "meaning": "noticing, paying attention (ourselves)",
+      "example_es": "Nos estamos fijándonos más en el proceso.",
+      "example_en": "We are paying more attention to the process."
+    },
+    {
+      "word": "fijándoos",
+      "phonetics": "fixanˈdoos",
+      "part_of_speech": "verb (gerund reflexive, vosotros, 'fijar')",
+      "meaning": "you all paying attention",
+      "example_es": "Os estáis fijándoos en lo esencial.",
+      "example_en": "You are paying attention to the essential things."
+    },
+    {
+      "word": "fijándote",
+      "phonetics": "fixanˈdote",
+      "part_of_speech": "verb (gerund reflexive, 'fijar')",
+      "meaning": "noticing, paying attention (yourself)",
+      "example_es": "Te estás fijándote demasiado en lo negativo.",
+      "example_en": "You are paying too much attention to the negative."
+    },
+    {
+      "word": "fijan",
+      "phonetics": "ˈfixan",
+      "part_of_speech": "verb (third-person plural, present of 'fijar')",
+      "meaning": "they fix, they attach, they notice",
+      "example_es": "Ellos fijan las reglas en cada reunión.",
+      "example_en": "They set the rules in each meeting."
+    }
 ];

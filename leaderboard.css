@@ -1,0 +1,96 @@
+/* App Layout with Sidebar */
+.app-layout {
+  display: flex;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 80px auto 20px;
+  padding: 0 20px;
+}
+
+/* Leaderboard Sidebar */
+#leaderboard {
+  width: 300px;
+  position: sticky;
+  top: 100px;
+  height: fit-content;
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+#leaderboard h2 {
+  color: #ffd93d;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+#leaderboard-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.leaderboard-entry {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  background: #f9f9f9;
+  border-radius: 6px;
+  transition: 0.2s;
+}
+
+.leaderboard-entry:hover {
+  background: #ffe0ac;
+}
+
+.leaderboard-rank {
+  font-weight: bold;
+  color: #4ea8de;
+  min-width: 30px;
+}
+
+.leaderboard-name {
+  flex: 1;
+  margin: 0 10px;
+  color: #333;
+}
+
+.leaderboard-score {
+  font-weight: bold;
+  color: #ff6b6b;
+}
+
+/* Gold, Silver, Bronze medals */
+.leaderboard-entry:nth-child(1) .leaderboard-rank::before { content: "🥇 "; }
+.leaderboard-entry:nth-child(2) .leaderboard-rank::before { content: "🥈 "; }
+.leaderboard-entry:nth-child(3) .leaderboard-rank::before { content: "🥉 "; }
+
+/* Name Input */
+#name-input {
+  margin: 20px 0;
+  padding: 15px;
+  background: #f5f5f5;
+  border-radius: 8px;
+}
+
+#player-name {
+  width: 60%;
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .app-layout {
+    flex-direction: column;
+  }
+  
+  #leaderboard {
+    width: 100%;
+    position: relative;
+    top: 0;
+  }
+}

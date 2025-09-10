@@ -1,12 +1,10 @@
-/***********************
- *  Spanish Quiz App
- *  – logic (script.js)
- ***********************/
-
-/* ============== constants ============== */
 const MAX_QUESTIONS = 15;         // fixed number per session
 const BADGE_STORE = "sq_badges";/* localStorage key for earned badges */
 
+document.addEventListener('DOMContentLoaded', () => {
+  //  ⬇  give the selector of the sidebar element
+  Leaderboard.init('#leaderboard');
+});
 /* ============== state ============== */
 let quizWords = [];
 let currentQuestionIndex = 0;
@@ -188,6 +186,19 @@ function updateStoredBadges() {
   const stored = JSON.parse(localStorage.getItem(BADGE_STORE) || "[]");
   const merged = Array.from(new Set([...stored, ...current]));
   localStorage.setItem(BADGE_STORE, JSON.stringify(merged));
+
+    const playerName = prompt("Enter your name for the leaderboard:", 
+    localStorage.getItem('player_name') || "");
+  if (playerName) {
+    localStorage.setItem('player_name', playerName);   // remember it
+    Leaderboard.addScore({
+      name : playerName,
+      score: score,
+      total: quizWords.length,
+      theme: currentTheme,
+      combos: combosEarned   // if you track combos; otherwise omit
+    });
+  }
 }
 
 /* ============== HELPERS ============== */

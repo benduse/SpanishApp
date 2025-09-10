@@ -4,7 +4,7 @@ body {
   color: #333; /* dark gray text for readability */
   margin: 0;
   padding: 0;
-  display: flex;
+  display: -webkit-flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -26,10 +26,13 @@ header {
 
 /* Adjust container for spacing below fixed header */
 .container {
-  margin-top: 80px; /* enough space for header height */
+  margin-top: 80px;
   width: 90%;
   max-width: 600px;
   text-align: center;
+  padding: 20px 25px;
+  border-radius: 12px;
+  display:auto;
 }
 /* Logo inside header */
 header img {
@@ -45,8 +48,9 @@ header h1 {
   font-size: 22px;
   margin: 0;
   background: linear-gradient(90deg, #ff6b6b, #4ea8de);
+  background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; /* gradient text effect */
+  -webkit-text-fill-color: transparent;
 }
 
 
@@ -122,25 +126,25 @@ button:hover {
   background: #ffd28c;
 }
 
-/* Example Sentences */
+
 #example {
   margin-top: 15px;
   padding: 10px;
   background: #f9f9f9;
   border-left: 4px solid #4ea8de;
   border-radius: 4px;
-  font-size: 14px;
+  font-size: 15px;
   text-align: left;
 }
 
-/* Correct / Wrong answer highlights */
+
 .correct {
-  background: #a8e6cf !important; /* pastel green */
+  background: #a8e6cf !important;
   color: #333 !important;
 }
 
 .wrong {
-  background: #ffaaa5 !important; /* pastel warm red */
+  background: #ffaaa5 !important;
   color: #333 !important;
 }
 
@@ -148,8 +152,8 @@ button:hover {
   margin-top: 20px;
   padding: 10px;
   background: #f5f5f5;
-  border-radius: 8px;
-  text-align: left;
+  border-radius: 18px;
+    text-align: ;
 }
 
 #achievements h3 {
@@ -174,7 +178,9 @@ header a#ach-link{
   color:#4ea8de;
   font-weight:bold;
   text-decoration:none;
+
 }
+
 header a#ach-link:hover{ text-decoration:underline; }
 .badge{white-space:nowrap;}
 #badge-collection{display:flex;flex-wrap:wrap;justify-content:center;}
