@@ -1,9 +1,3 @@
-/***********************
- *  Spanish Quiz App
- *  – logic (script.js)
- ***********************/
-
-/* ============== constants ============== */
 const MAX_QUESTIONS = 15;         // fixed number per session
 const BADGE_STORE   = "sq_badges";/* localStorage key for earned badges */
 
@@ -28,9 +22,23 @@ function startQuiz(theme) {
     return;
   }
 
-  // 2. TAKE FIRST 15 ONLY (chronological)
-  quizWords = pool.slice(0, MAX_QUESTIONS);
+  const seenKey = `seen_${theme}`;
+  let seenWords = JSON.parse(localStorage.getItem(seenKey) || "[]");
 
+  // 2. Filter out seen words
+  let unseenPool = pool.filter(w => !seenWords.includes(w.word));
+
+  if (unseenPool.length < MAX_QUESTIONS) {
+    unseenPool = pool;
+    seenWords = []; // reset seen words if not enough unseen
+  }
+
+  const shuffled = shuffle(unseenPool);
+  quizWords = shuffled.slice(0, MAX_QUESTIONS);
+
+  const newSeen = quizWords.map(w => w.word);
+  localStorage.setItem(seenKey, JSON.stringify([...seenWords, ...newSeen]));
+  
   // --- reset session state ---
   score = 0;
   times = [];
